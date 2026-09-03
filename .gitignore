@@ -1,0 +1,80 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.jupyter/
+profile_default/
+ipython_config.py
+
+# --- Editores / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Sistema operativo ---
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# macOS
+.DS_Store
+.AppleDouble
+# Linux
+.directory
+.Trash-*
+
+# --- Office: archivos temporales de bloqueo ---
+~$*.docx
+~$*.xlsx
+~$*.pptx
+.~lock.*#
+
+# --- Secretos y configuración local ---
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+secrets.*
+
+# --- Salidas temporales ---
+*.log
+*.tmp
+/tmp/
+output/
+
+# --- Excluidos del repo publico ---
+# Respaldos y carpetas locales del estudiante
+_originales_backup/
+_material_docente/
+_versiones_v1/
+_archivo/
+
+# Material docente de la asignatura (no es produccion del grupo)
+Casos.pdf
+EP1_Instrucciones*.pdf
+EP2_Instrucciones*.pdf
+dataset_caso2.zip
+1.*.pptx
+1.*.docx
+1.*.pdf
+
+# Vistas HTML del notebook (se regeneran)
+Anexo_Analisis_Caso2.html
